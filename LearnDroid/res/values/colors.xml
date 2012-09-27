@@ -2,5 +2,7 @@
 <resources>
     <color name="lavender">#E6E6FA</color>
     <color name="lightblue">#ADD8E6</color>
+    <color name="blanchedalmond">#FFEBCD</color>
+    <color name="cyan">#00FFFF</color>
     
 </resources>

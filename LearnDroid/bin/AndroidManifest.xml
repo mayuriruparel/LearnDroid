@@ -4,7 +4,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="15" />
 
     <application
@@ -14,7 +14,6 @@
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home" >
-            
         </activity>
         <activity
             android:name=".Splash"
@@ -24,6 +23,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contents"
+            android:label="@string/title_activity_contents" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mayuri.learndroid.Home" />
         </activity>
     </application>
 

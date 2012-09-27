@@ -8,17 +8,13 @@ import android.view.Menu;
 
 public class Splash extends Activity {
 
-	private final int SPLASH_DISPLAY_LENGHT = 3000;
-
-	
+	private final int SPLASH_DISPLAY_LENGHT = 3000;	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         
-        /* New Handler to start the Menu-Activity 
-         * and close this Splash-Screen after some seconds.*/
-        new Handler().postDelayed(new Runnable(){
+          new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */

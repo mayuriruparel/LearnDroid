@@ -1,0 +1,41 @@
+
+    
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="center_horizontal">
+    
+          <TextView
+            android:id="@+id/txtEnvironment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Setting up Adt environment"
+            android:background="@color/cyan"
+            />
+          
+
+        <TextView
+            android:id="@+id/txtNewApp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Creatating a New Application"
+            android:background="@color/blanchedalmond"
+            />
+        
+        <TextView
+            android:id="@+id/txtColrs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Working With Colors And Images"
+            android:background="@color/cyan"
+            />
+    
+   
+</LinearLayout>
+    </ScrollView>
